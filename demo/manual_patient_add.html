@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="pat_add.php" method="post">
+		<div>
+			ID:<input type="number" name="P_ID">
+		</div>
+		<div>
+			Name :<input type="text" name="P_name">
+		</div>
+		<div>
+			Age :<input type="number" name="P_age">
+		</div>
+		<div>
+			Gender:<input type="radio" name="P_gender" value="Male">Male 
+					<input type="radio" name="P_gender" value="Female">Female
+		</div>
+		<dir>
+			Area(actually make a drop down menu):<input type="text" name="P_area">
+		</dir>
+		<div>
+			phone:<input type="number" name="P_phone">
+		</div>
+		<div>
+			PCR Result:<input type="radio" name="P_pcr_result" value="positive">positive 
+						<input type="radio" name="P_pcr_result" value="negative">negative
+		</div>
+		<div>
+			Oxygen Level:<input type="number" name="P_oxy_level">
+		</div>
+		<div>
+			self-Quarantined?:<input type="radio" name="P_self_quarantined" value="yes">yes
+			
+							  <input type="radio" name="P_self_quarantined" value="no">no
+		</div>
+		<div>
+			Quarantine Days: <input type="number" name="P_quarantine_days">
+		</div>
+		<div>
+			Result:<input type="radio" name="P_result" value="active">active
+					<input type="radio" name="P_result" value="recovered">recovered
+					<input type="radio" name="P_result" value="dead">Terminal
+		</div>
+		<div>
+			On Oxygen:<input type="radio" name="P_oxygen" value="yes">yes
+					  <input type="radio" name="P_oxygen" value="no">no
+		</div>
+		<div>
+			on ventilator:<input type="radio" name="P_ventilator" value="yes">yes
+						   <input type="radio" name="P_ventilator" value="no">no
+		</div>
+
+		<div>
+			<input type="submit" name="signup"/>
+		</div>
+	</form>
+</body>
+</html>
